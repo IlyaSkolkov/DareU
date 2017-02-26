@@ -6,5 +6,4 @@ target 'DareU' do
   use_frameworks!
 
   # Pods for DareU
-  pod 'RealmSwift'
 end

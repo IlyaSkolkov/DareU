@@ -17,6 +17,10 @@
 		0991C5861E625EAD00257CCE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0991C5851E625EAD00257CCE /* ProfileViewController.swift */; };
 		0991C5881E625ED400257CCE /* DareDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0991C5871E625ED400257CCE /* DareDetailViewController.swift */; };
 		375202435670D1B5DD2D5831 /* Pods_DareU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EF6306DD5C5328D164D688 /* Pods_DareU.framework */; };
+		EC7E1BEC1E62A0810057EC5D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7E1BEB1E62A0810057EC5D /* Home.storyboard */; };
+		EC7E1BEE1E62A0C90057EC5D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BED1E62A0C90057EC5D /* HomeTableViewController.swift */; };
+		EC7E1BF01E62A2FD0057EC5D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BEF1E62A2FD0057EC5D /* HomeTableViewCell.swift */; };
+		EC7E1BF21E62B54D0057EC5D /* DareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		0991C5871E625ED400257CCE /* DareDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareDetailViewController.swift; sourceTree = "<group>"; };
 		17EF6306DD5C5328D164D688 /* Pods_DareU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DareU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1E0207A34C0561C16AF91C /* Pods-DareU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DareU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DareU/Pods-DareU.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7E1BEB1E62A0810057EC5D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EC7E1BED1E62A0C90057EC5D /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EC7E1BEF1E62A2FD0057EC5D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +77,10 @@
 		0926C8711E6251A70045896F /* DareU */ = {
 			isa = PBXGroup;
 			children = (
-				0991C5821E625CF100257CCE /* Profile Screen */,
+				EC7E1BF31E62C1810057EC5D /* Camera Screen */,
+				EC7E1BEA1E62A0740057EC5D /* Home Screen */,
 				0991C57F1E625C4D00257CCE /* Dare Detail Screen */,
+				0991C5821E625CF100257CCE /* Profile Screen */,
 				0926C8721E6251A70045896F /* AppDelegate.swift */,
 				0926C8741E6251A70045896F /* ViewController.swift */,
 				0926C8761E6251A70045896F /* Main.storyboard */,
@@ -86,6 +96,7 @@
 			children = (
 				0991C5801E625C7A00257CCE /* DareDetail.storyboard */,
 				0991C5871E625ED400257CCE /* DareDetailViewController.swift */,
+				EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */,
 			);
 			name = "Dare Detail Screen";
 			sourceTree = "<group>";
@@ -114,6 +125,23 @@
 				17EF6306DD5C5328D164D688 /* Pods_DareU.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7E1BEA1E62A0740057EC5D /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E1BEB1E62A0810057EC5D /* Home.storyboard */,
+				EC7E1BED1E62A0C90057EC5D /* HomeTableViewController.swift */,
+				EC7E1BEF1E62A2FD0057EC5D /* HomeTableViewCell.swift */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		EC7E1BF31E62C1810057EC5D /* Camera Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Camera Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +209,7 @@
 				0926C87D1E6251A70045896F /* LaunchScreen.storyboard in Resources */,
 				0926C87A1E6251A70045896F /* Assets.xcassets in Resources */,
 				0991C5841E625D0900257CCE /* Profile.storyboard in Resources */,
+				EC7E1BEC1E62A0810057EC5D /* Home.storyboard in Resources */,
 				0926C8781E6251A70045896F /* Main.storyboard in Resources */,
 				0991C5811E625C7A00257CCE /* DareDetail.storyboard in Resources */,
 			);
@@ -241,10 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7E1BF01E62A2FD0057EC5D /* HomeTableViewCell.swift in Sources */,
 				0991C5861E625EAD00257CCE /* ProfileViewController.swift in Sources */,
 				0926C8751E6251A70045896F /* ViewController.swift in Sources */,
 				0926C8731E6251A70045896F /* AppDelegate.swift in Sources */,
 				0991C5881E625ED400257CCE /* DareDetailViewController.swift in Sources */,
+				EC7E1BEE1E62A0C90057EC5D /* HomeTableViewController.swift in Sources */,
+				EC7E1BF21E62B54D0057EC5D /* DareCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
