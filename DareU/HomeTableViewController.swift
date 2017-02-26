@@ -44,14 +44,7 @@ class HomeTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        
-        guard let selectedRow = tableView.indexPathForSelectedRow?.row else {
-            return
-        }
-        
-        let destinationVC = segue.destination as! DareDetailViewController
-        destinationVC.dare = dares[selectedRow]
-        destinationVC.percent = daresPercentage[selectedRow]
+
     }
 
 }

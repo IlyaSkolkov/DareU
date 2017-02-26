@@ -45,6 +45,14 @@
                                     <segue destination="YVt-ue-XBq" kind="show" id="IJ3-ky-ati"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbM-Yd-KqU">
+                                <rect key="frame" x="134" y="455" width="106" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera Screen"/>
+                                <connections>
+                                    <segue destination="t9l-Qk-VAH" kind="show" id="fcU-1p-OIu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -69,6 +77,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdc-v0-ylL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1617" y="136"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="K57-se-ivK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Camera" id="t9l-Qk-VAH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RzL-cQ-HQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1617" y="187"/>
         </scene>
         <!--DareDetail-->
         <scene sceneID="qWC-IL-8D5">

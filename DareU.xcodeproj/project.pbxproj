@@ -20,7 +20,8 @@
 		EC7E1BEC1E62A0810057EC5D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7E1BEB1E62A0810057EC5D /* Home.storyboard */; };
 		EC7E1BEE1E62A0C90057EC5D /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BED1E62A0C90057EC5D /* HomeTableViewController.swift */; };
 		EC7E1BF01E62A2FD0057EC5D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BEF1E62A2FD0057EC5D /* HomeTableViewCell.swift */; };
-		EC7E1BF21E62B54D0057EC5D /* DareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */; };
+		EC7E1BF51E62C2550057EC5D /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7E1BF41E62C2550057EC5D /* Camera.storyboard */; };
+		EC7E1BF71E62C26A0057EC5D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E1BF61E62C26A0057EC5D /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,8 @@
 		EC7E1BEB1E62A0810057EC5D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		EC7E1BED1E62A0C90057EC5D /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		EC7E1BEF1E62A2FD0057EC5D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
-		EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC7E1BF41E62C2550057EC5D /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		EC7E1BF61E62C26A0057EC5D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,6 @@
 			children = (
 				0991C5801E625C7A00257CCE /* DareDetail.storyboard */,
 				0991C5871E625ED400257CCE /* DareDetailViewController.swift */,
-				EC7E1BF11E62B54D0057EC5D /* DareCollectionViewCell.swift */,
 			);
 			name = "Dare Detail Screen";
 			sourceTree = "<group>";
@@ -140,6 +141,8 @@
 		EC7E1BF31E62C1810057EC5D /* Camera Screen */ = {
 			isa = PBXGroup;
 			children = (
+				EC7E1BF41E62C2550057EC5D /* Camera.storyboard */,
+				EC7E1BF61E62C26A0057EC5D /* CameraViewController.swift */,
 			);
 			name = "Camera Screen";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0926C87D1E6251A70045896F /* LaunchScreen.storyboard in Resources */,
+				EC7E1BF51E62C2550057EC5D /* Camera.storyboard in Resources */,
 				0926C87A1E6251A70045896F /* Assets.xcassets in Resources */,
 				0991C5841E625D0900257CCE /* Profile.storyboard in Resources */,
 				EC7E1BEC1E62A0810057EC5D /* Home.storyboard in Resources */,
@@ -274,9 +278,9 @@
 				0991C5861E625EAD00257CCE /* ProfileViewController.swift in Sources */,
 				0926C8751E6251A70045896F /* ViewController.swift in Sources */,
 				0926C8731E6251A70045896F /* AppDelegate.swift in Sources */,
+				EC7E1BF71E62C26A0057EC5D /* CameraViewController.swift in Sources */,
 				0991C5881E625ED400257CCE /* DareDetailViewController.swift in Sources */,
 				EC7E1BEE1E62A0C90057EC5D /* HomeTableViewController.swift in Sources */,
-				EC7E1BF21E62B54D0057EC5D /* DareCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
