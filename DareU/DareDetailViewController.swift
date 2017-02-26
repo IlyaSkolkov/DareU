@@ -9,10 +9,11 @@
 import UIKit
 
 class DareDetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var daredetailscollectionview: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -33,3 +34,14 @@ class DareDetailViewController: UIViewController {
     */
 
 }
+
+//extension DareDetailViewController: UICollectionViewDataSource {
+//    
+//    func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        return 1
+//    }
+//    
+// 
+//    
+//    
+//}

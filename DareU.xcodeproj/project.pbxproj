@@ -12,6 +12,10 @@
 		0926C8781E6251A70045896F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926C8761E6251A70045896F /* Main.storyboard */; };
 		0926C87A1E6251A70045896F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0926C8791E6251A70045896F /* Assets.xcassets */; };
 		0926C87D1E6251A70045896F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926C87B1E6251A70045896F /* LaunchScreen.storyboard */; };
+		09351C511E62A19400F34711 /* PoppyTalk Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09351C501E62A19400F34711 /* PoppyTalk Logo.jpg */; };
+		09351C531E62A6B600F34711 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 09351C521E62A6B600F34711 /* accept.png */; };
+		09351C561E62A71E00F34711 /* decline.png in Resources */ = {isa = PBXBuildFile; fileRef = 09351C541E62A71E00F34711 /* decline.png */; };
+		09351C571E62A71E00F34711 /* saveForLater.png in Resources */ = {isa = PBXBuildFile; fileRef = 09351C551E62A71E00F34711 /* saveForLater.png */; };
 		0991C5811E625C7A00257CCE /* DareDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0991C5801E625C7A00257CCE /* DareDetail.storyboard */; };
 		0991C5841E625D0900257CCE /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0991C5831E625D0900257CCE /* Profile.storyboard */; };
 		0991C5861E625EAD00257CCE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0991C5851E625EAD00257CCE /* ProfileViewController.swift */; };
@@ -33,6 +37,10 @@
 		0926C8791E6251A70045896F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0926C87C1E6251A70045896F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0926C87E1E6251A70045896F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09351C501E62A19400F34711 /* PoppyTalk Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PoppyTalk Logo.jpg"; sourceTree = "<group>"; };
+		09351C521E62A6B600F34711 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		09351C541E62A71E00F34711 /* decline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decline.png; sourceTree = "<group>"; };
+		09351C551E62A71E00F34711 /* saveForLater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveForLater.png; sourceTree = "<group>"; };
 		0991C5801E625C7A00257CCE /* DareDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DareDetail.storyboard; sourceTree = "<group>"; };
 		0991C5831E625D0900257CCE /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		0991C5851E625EAD00257CCE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				0991C5801E625C7A00257CCE /* DareDetail.storyboard */,
+				09351C501E62A19400F34711 /* PoppyTalk Logo.jpg */,
+				09351C541E62A71E00F34711 /* decline.png */,
+				09351C551E62A71E00F34711 /* saveForLater.png */,
+				09351C521E62A6B600F34711 /* accept.png */,
 				0991C5871E625ED400257CCE /* DareDetailViewController.swift */,
 			);
 			name = "Dare Detail Screen";
@@ -209,12 +221,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09351C511E62A19400F34711 /* PoppyTalk Logo.jpg in Resources */,
 				0926C87D1E6251A70045896F /* LaunchScreen.storyboard in Resources */,
 				EC7E1BF51E62C2550057EC5D /* Camera.storyboard in Resources */,
+				09351C561E62A71E00F34711 /* decline.png in Resources */,
 				0926C87A1E6251A70045896F /* Assets.xcassets in Resources */,
 				0991C5841E625D0900257CCE /* Profile.storyboard in Resources */,
 				EC7E1BEC1E62A0810057EC5D /* Home.storyboard in Resources */,
 				0926C8781E6251A70045896F /* Main.storyboard in Resources */,
+				09351C531E62A6B600F34711 /* accept.png in Resources */,
+				09351C571E62A71E00F34711 /* saveForLater.png in Resources */,
 				0991C5811E625C7A00257CCE /* DareDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
